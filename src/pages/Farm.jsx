@@ -6,7 +6,7 @@ const Farm = ()=>{
     return (
         <>
         <Header />
-        <div>
+        <div className=''>
             <form>
             <div>
                 <label htmlFor ='fname'>Name</label>
@@ -141,6 +141,7 @@ const Farm = ()=>{
             </div>
 
         </div>
+        <div>map</div>
         </>
     )
 }
