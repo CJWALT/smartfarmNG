@@ -11,12 +11,12 @@ const Dashboard = () =>{
         <div className='bg-[#E6E6E6]'>
         <Header/>
             <div className="bg-[#F7F7E2] py-[1.7rem] px-[2rem] mt-[1.7rem]">
-              <div className='bg-[url(./assets/img/farmbg.jpg)] py-[3rem] px-[2rem] bg-cover bg-center bg-no-repeat'>
+              <div className='bg-[url(../assets/img/farmbg.jpg)] py-[3rem] px-[2rem] bg-cover bg-center bg-no-repeat'>
               <p className='text-white text-center font-[Lato] font-bold leading-[1.4rem] text-[.9rem]'>Gives precise information to enable more appropriate and cost efficient application of seed, fertilizer, chemicals, irrigation, and other farm inputs.</p>
               </div>
             </div>
             <div className="bg-[#F7F7E2] mt-[1.9rem] py-[1.7rem] px-[2rem]">
-            <div className='bg-[url(./assets/img/farmbg.jpg)] py-[3rem] px-[2rem] bg-cover bg-center bg-no-repeat'>
+            <div className='bg-[url(../assets/img/farmbg.jpg)] py-[3rem] px-[2rem] bg-cover bg-center bg-no-repeat'>
               <p className='text-white text-center font-[Lato] font-bold leading-[1.4rem] text-[.9rem]'>Precision #agriculture is an emerging field that utilizes advanced technologies and data-driven strategies to optimize crop growth and reduce weather-related risks. One of the most important factors in precision #agriculture is the use of weather data and forecasting to improve crop management practices.</p>
               </div>
             </div>
