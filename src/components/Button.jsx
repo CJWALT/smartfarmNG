@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Button = ({children, icon, btnWidth, bgBtn, btnHover, fntColor}) =>{
+const Button = ({children, icon, btnWidth, bgBtn, btnHover, logInClick, fntColor}) =>{
 
 
     const btnColor = ['bg-[#065146]', 'outlined', 'bg-[#065146]']
@@ -21,6 +21,7 @@ const Button = ({children, icon, btnWidth, bgBtn, btnHover, fntColor}) =>{
         <>
         <div>
             <button
+            onClick={logInClick}
             className={`font-medium flex flex-row justify-center items-center gap-[.6rem] rounded-[.5rem] font-[Lato] py-[.8rem] ${btnHover} ${colorBtn} ${colorTxt} ${sizeBtn}` }>
                 {icon} {children} 
                 </button>    
