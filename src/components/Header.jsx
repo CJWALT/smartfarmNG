@@ -27,7 +27,9 @@ const Header = ()=>{
              <div className="container">
                 <div className="flex flex-row justify-between py-[1.4rem] items-center">
                 <div className="logo">
-                   <img src="./assets/img/logodb.png" alt ="logo" className="w-[10rem]"/>
+                  <Link to='/dashboard'>
+                  <img src="./assets/img/logodb.png" alt ="logo" className="w-[10rem]"/>
+                    </Link>
                 </div>
                 <div className={`${menu  ? 'bg-[#FDFDF8] absolute top-[4.7rem] h-auto left-0': 'hidden'}`}> 
                    <nav className='flex flex-col gap-[1rem] shadow-[1rem] rounded-sm p-[2rem]'> 
