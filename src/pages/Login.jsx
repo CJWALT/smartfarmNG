@@ -67,6 +67,7 @@ const Login = () => {
                   className="w-full mb-[.6rem] h-[3rem] rounded-[.4rem] border-[#adadad] "
                   name="email"
                   placeholder="Email or Phone Number"
+                  required
                 />
                 <input
                   type="password"
@@ -75,6 +76,7 @@ const Login = () => {
                   className="w-full h-[3rem] rounded-[.4rem] border-[#adadad] "
                   name="password"
                   placeholder="Password"
+                  required
                 />
                 <div className="mt-[.8rem] flex flex-row justify-between mb-[3rem]">
                   <span className="flex items-center gap-1">
